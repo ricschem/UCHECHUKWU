@@ -1,0 +1,37 @@
+<html>
+    {% include 'sidebar.html' %}
+<head>
+
+
+</head>
+    
+
+<body>
+    
+    <h1>This is our Model</h1>
+
+    {% block title %}
+       {{EjecsModel.title}}
+    {% endblock %}
+    
+    
+    {% block content %}
+       
+        <section>
+             <img src="{{EjecsModel.logo.url}}">
+             <h1>{{EjecsModel.title}}</h1>
+             <p>{{EjecsModel.description}}</p>
+    
+        </section>
+    
+    {% endblock %}
+    
+
+</body>
+</html>
+
+
+
+
+
+
