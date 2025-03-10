@@ -1,0 +1,56 @@
+/*NAVBAR CSS CODES*/
+
+.imgy{
+
+    height: 50px;
+    margin-left: 10px;
+}
+
+.pnum{
+    color: white;
+}
+
+.container-fluid{
+
+    padding-left: 0%;
+}
+
+#navbarSupportedContent{
+    background-color: blue;
+    height: 100px;  
+}
+
+
+
+/*CAROUSEL CSS CODES*/
+h2{
+
+    font-size: 90px;
+    margin-left: 10%;
+}
+
+#hero-carousel{
+
+    width: 90%;
+    height: 100%;
+    margin-left: 14%;
+}
+
+
+
+
+
+
+/*SIDEBAR CSS CODES*/
+
+.nav-pills li a:hover{
+    background-color: rgb(26, 26, 230);
+}
+
+img{
+    height: 100px;
+}
+
+
+    
+    

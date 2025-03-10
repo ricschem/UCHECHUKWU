@@ -1,0 +1,49 @@
+/*NAVBAR CSS CODES*/
+
+.imgy{
+
+    height: 50px;
+    margin-left: 10px;
+}
+
+.pnum{
+    color: white;
+}
+
+
+
+
+#nbl{
+    
+    
+    
+    background-color: blue;
+}
+    
+
+
+/*CAROUSEL CSS CODES*/
+
+
+
+
+
+/*SIDEBAR CSS CODES*/
+
+
+.sbc{
+    top: 0;
+    position: absolute;
+    height: 100%;
+}
+
+
+
+.nav-pills li a:hover{
+    background-color: rgb(26, 26, 230);
+}
+
+#jimg{
+    height: 100px;
+}
+

@@ -1,0 +1,60 @@
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
+}
+
+
+
+
+/*NAVBAR CSS CODES*/
+
+.imgy{
+
+    height: 50px;
+    margin-left: 10px;
+}
+
+
+#nbl{
+    background-color: aqua;
+}
+
+
+
+.nav-link{
+
+    color: blue;
+
+    padding-left: 20px;
+}
+
+
+/*FOOTER CSS CODES*/
+#ftr{
+    background-color: rgba(149, 149, 199, 0.788);
+}
+
+
+
+/*BODY CSS CODES*/
+
+.abt{
+    text-align: justify;
+    font-size: 20px;
+    
+}
+
+
+
+
+/*CAROUSEL CSS CODES*/
+
+
+
+
+    
