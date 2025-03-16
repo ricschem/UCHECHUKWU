@@ -32,8 +32,8 @@ SECRET_KEY = 'django-insecure-za*huyd!zfy3g$4jy+&&kots_u3p_h975^h$@vto27u@gu8o5r
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['chimdindu-production.up.railway.app', 'https://chimdindu-production.up.railway.app']
-CSRF_TRUSTED_ORIGINS = ['chimdindu-production.up.railway.app', 'https://chimdindu-production.up.railway.app']
+#ALLOWED_HOSTS = ['chimdindu-production.up.railway.app', 'https://chimdindu-production.up.railway.app']
+#CSRF_TRUSTED_ORIGINS = ['chimdindu-production.up.railway.app', 'https://chimdindu-production.up.railway.app']
 
 
 # Application definition
@@ -84,11 +84,52 @@ WSGI_APPLICATION = 'JOLPECPROJECT.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
+
+# Database
+# https://docs.djangoproject.com/en/5.1/ref/settings/#databases
+
+# Set default values for the environment variables if they’re not already set
+#os.environ.setdefault("PGDATABASE", "liftoff_dev")
+#os.environ.setdefault("PGUSER", "username")
+#os.environ.setdefault("PGPASSWORD", "")
+#os.environ.setdefault("PGHOST", "localhost")
+#os.environ.setdefault("PGPORT", "5432")
+
+#DATABASES = {
+    #'default': {
+        #'ENGINE': 'django.db.backends.postgresql',
+        #'NAME': os.environ["PGDATABASE"],
+        #'USER': os.environ["PGUSER"],
+        #'PASSWORD': os.environ["PGPASSWORD"],
+        #'HOST': os.environ["PGHOST"],
+        #'PORT': os.environ["PGPORT"],
+    #}
+#}
+
+#DATABASES = {
+    #'default': {
+        #'ENGINE': 'django.db.backends.sqlite3',
+        #'NAME': BASE_DIR / 'db.sqlite3',
+        #'ENGINE': 'django.db.backends.postgresql',
+        #'NAME':'railway',
+        #'USER':  'postgres',
+        #'PASSWORD' :os.environ.get('DB_PASSWORD_YO') ,
+        #'HOST': 'postgres.railway.internal',
+        #'PORT': '5432',  
+   # }
+#}
+
+
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+   'default': {
+       'ENGINE': 'django.db.backends.postgresql',
+       'NAME': 'postgres',
+       'USER': 'postgres',
+       'PASSWORD': '197876',
+       'HOST': 'localhost',
+       'PORT': '5432',
+   }
 }
 
 
